@@ -1,19 +1,3 @@
-<!--
-@Project: Learnify
-@Author/Programmer: Syauqi Zaidan Khairan Khalaf
-@URL: syauqi.js.org
-Author E-mail: Zaidanline67@Gmail.com
-
-@About-Learnify :
-Web Edukasi Open Source yang
-dibuat oleh Syauqi Zaidan Khairan Khalaf.
-Learnify adalah Web edukasi yang dilengkapi video, materi, dan soal ( Coming soon )
-yang didesign semenarik dan sesimple mungkin. Learnify dibuat ditujukan agar para siswa
-dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
--->
-
-
-<!--================Home Banner Area =================-->
 <section class="home_banner_area">
     <div class="banner_inner d-flex align-items-center">
         <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background="">
@@ -24,7 +8,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                 <p>Dengan Learnify kemudahan kegiatan belajar mengajar dapat terpenuhi. Para guru dan siswa dapat
                     belajar meski banyak halangan atau rintangan. Pembelajaran Terstruktur dan Efektif hanya di
                     Learnify! Nikmati kemudahan belajar dan materi terlengkap dari kami! </p>
-                <a class="main_btn" href="<?=base_url('user/registration')?>#registration">Daftar Sekarang</a>
+                <a class="main_btn" href="<?= base_url('user/registration') ?>#registration">Daftar Sekarang</a>
             </div>
         </div>
     </div>
@@ -104,7 +88,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                 <div class="grid_inner">
                     <div class="grid_item wd55">
                         <div class="courses_item">
-                            <img src="<?=base_url('assets/')?>img/courses/course-1.jpg" alt="">
+                            <img src="<?= base_url('assets/') ?>img/courses/course-1.jpg" alt="">
                             <div class="hover_text">
                                 <a class="cat" href="#">Gratis</a>
                                 <a href="javaScript:void(0);">
@@ -121,7 +105,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                     </div>
                     <div class="grid_item wd44">
                         <div class="courses_item">
-                            <img src="<?=base_url('assets/')?>img/courses/course-2.jpg" alt="">
+                            <img src="<?= base_url('assets/') ?>img/courses/course-2.jpg" alt="">
                             <div class="hover_text">
                                 <a class="cat" href="#">Gratis</a>
                                 <a href="javaScript:void(0);">
@@ -137,7 +121,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                     </div>
                     <div class="grid_item wd44">
                         <div class="courses_item">
-                            <img src="<?=base_url('assets/')?>img/courses/course-4.jpg" alt="">
+                            <img src="<?= base_url('assets/') ?>img/courses/course-4.jpg" alt="">
                             <div class="hover_text">
                                 <a class="cat" href="#">Gratis</a>
                                 <a href="javaScript:void(0);">
@@ -153,7 +137,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                     </div>
                     <div class="grid_item wd55">
                         <div class="courses_item">
-                            <img src="<?=base_url('assets/')?>img/courses/course-5.jpg" alt="">
+                            <img src="<?= base_url('assets/') ?>img/courses/course-5.jpg" alt="">
                             <div class="hover_text">
                                 <a class="cat" href="#">Gratis</a>
                                 <a href="javaScript:void(0);">
@@ -172,7 +156,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
             </div>
             <div class="col-lg-3">
                 <div class="course_item">
-                    <img src="<?=base_url('assets/')?>img/courses/course-3.jpg" alt="">
+                    <img src="<?= base_url('assets/') ?>img/courses/course-3.jpg" alt="">
                     <div class="hover_text">
                         <a class="cat" href="#">Gratis</a>
                         <a href="javaScript:void(0);">
@@ -206,7 +190,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                 <div class="testi_slider owl-carousel">
                     <div class="item">
                         <div class="testi_item">
-                            <img src="<?=base_url('assets/')?>img/testimonials/testi-3.png" alt="">
+                            <img src="<?= base_url('assets/') ?>img/testimonials/testi-3.png" alt="">
                             <h4>Syaauqi Zaaidan</h4>
                             <ul class="list">
                                 <li><a href="#"><i class="fa fa-star"></i></a></li>
@@ -225,7 +209,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                     </div>
                     <div class="item">
                         <div class="testi_item">
-                            <img src="<?=base_url('assets/')?>img/testimonials/testi-2.png" alt="">
+                            <img src="<?= base_url('assets/') ?>img/testimonials/testi-2.png" alt="">
                             <h4>Taupik Hidayat</h4>
                             <ul class="list">
                                 <li><a href="#"><i class="fa fa-star"></i></a></li>
@@ -243,7 +227,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                     </div>
                     <div class="item">
                         <div class="testi_item">
-                            <img src="<?=base_url('assets/')?>img/testimonials/testi-1.png" alt="">
+                            <img src="<?= base_url('assets/') ?>img/testimonials/testi-1.png" alt="">
                             <h4>Diki Ramdani</h4>
                             <ul class="list">
                                 <li><a href="#"><i class="fa fa-star"></i></a></li>
@@ -274,7 +258,7 @@ dan guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
             <p>Jika anda adalah seorang guru, anda dapat mendaftar dan masuk untuk mengajar para siswa di Learnify.
                 Tidak dikenakan biaya dan anda dapat segera mengajar setelah disetujui oleh pihak sekolah.
             </p>
-            <a class="main_btn2" href="<?=base_url('welcome/guru')?>">Login sebagai Guru</a>
+            <a class="main_btn2" href="<?= base_url('welcome/guru') ?>">Login sebagai Guru</a>
         </div>
     </div>
 </section>
