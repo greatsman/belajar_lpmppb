@@ -1111,9 +1111,15 @@ class CI_Form_validation
 	public function valid_email($str)
 	{
 		if (function_exists('idn_to_ascii') && preg_match('#\A([^@]+)@(.+)\z#', $str, $matches)) {
-			$variant = defined('INTL_IDNA_VARIANT_UTS46') ? INTL_IDNA_VARIANT_UTS46 : INTL_IDNA_VARIANT_2003;
-			$str = $matches[1] . '@' . idn_to_ascii($matches[2], 0, $variant);
+			$domain = defined('INTL_IDNA_VARIANT_UTS46')
+				? idn_to_ascii($matches[2], 0, INTL_IDNA_VARIANT_UTS46)
+				: idn_to_ascii($matches[2]);
+
+			if ($domain !== FALSE) {
+				$str = $matches[1] . '@' . $domain;
+			}
 		}
+
 		return (bool) filter_var($str, FILTER_VALIDATE_EMAIL);
 	}
 
